@@ -6,10 +6,9 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <style>
-        /* Ajouté pour la mise en page en grille */
+        /* Mise en page en grille avec adaptation à la taille de l'écran */
         .gallery {
             display: grid;
-            grid-template-columns: repeat(1, 1fr);
             gap: 20px;
             padding: 20px;
         }
@@ -22,21 +21,51 @@
             width: 100%;
             height: auto;
             border-radius: 10px;
+            min-height: 200px; /* Optionnel: Ajuster la hauteur minimale pour les images */
         }
 
-        /* Optionnel: Ajuster la hauteur minimale pour les images */
-        .gallery-item img {
-            min-height: 200px;
+        /* Par défaut, une colonne pour les écrans très petits */
+        .gallery {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        /* Deux colonnes pour les petits écrans */
+        @media (min-width: 576px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        /* Trois colonnes pour les écrans de taille moyenne */
+        @media (min-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        /* Quatre colonnes pour les grands écrans */
+        @media (min-width: 992px) {
+            .gallery {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        /* Cinq colonnes pour les très grands écrans */
+        @media (min-width: 1200px) {
+            .gallery {
+                grid-template-columns: repeat(5, 1fr);
+            }
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>Bienvenue</h1>
+        <h1>Bienvenue sur mon portfolio</h1>
     </header>
 
     <main>
         <section class="gallery">
+            <!-- Ajoute ici tes éléments de galerie -->
             <div class="gallery-item">
                 <a href="barcelone.html">
                     <img src="images/barcelone.jpg" alt="Barcelone">
@@ -103,13 +132,11 @@
                     <h2>Moscou</h2>
                 </a>
             </div>
-            </div>
             <div class="gallery-item">
                 <a href="Lauterbrunnen.html">
                     <img src="images/lauterbrunnen.jpg" alt="Lauterbrunnen">
-                    <h2>Moscou</h2>
+                    <h2>Lauterbrunnen</h2>
                 </a>
-            </div>
             </div>
             <div class="gallery-item">
                 <a href="Dublin.html">

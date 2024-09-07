@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>France</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .gallery {
+            display: grid;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery-item {
+            text-align: center;
+        }
+
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            min-height: 200px;
+        }
+
+        .gallery {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        @media (min-width: 576px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (min-width: 768px) {
+            .gallery {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+
+        @media (min-width: 992px) {
+            .gallery {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+
+        @media (min-width: 1200px) {
+            .gallery {
+                grid-template-columns: repeat(5, 1fr);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>France</h1>
+    </header>
+
+    <main>
+        <section class="gallery">
+            <div class="gallery-item">
+                <a href="paris.html">
+                    <img src="images/paris.jpg" alt="Paris">
+                    <h2>Paris</h2>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="marseille.html">
+                    <img src="images/marseille.jpg" alt="Marseille">
+                    <h2>Marseille</h2>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="lyon.html">
+                    <img src="images/lyon.jpg" alt="Lyon">
+                    <h2>Lyon</h2>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="nice.html">
+                    <img src="images/nice.jpg" alt="Nice">
+                    <h2>Nice</h2>
+                </a>
+            </div>
+            <div class="gallery-item">
+                <a href="bordeaux.html">
+                    <img src="images/bordeaux.jpg" alt="Bordeaux">
+                    <h2>Bordeaux</h2>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Vincent Frédéric WEI. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

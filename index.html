@@ -3,244 +3,399 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta name="author" content="Vincent Wei">
+    <title>Photographies de mes voyages - Vincent Wei</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        /* Mise en page en grille avec adaptation à la taille de l'écran */
-        .gallery {
-            display: grid;
-            gap: 20px;
-            padding: 20px;
-        }
-
-        .gallery-item {
-            text-align: center;
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: auto;
-            border-radius: 10px;
-            min-height: 200px; /* Optionnel: Ajuster la hauteur minimale pour les images */
-        }
-
-        /* Par défaut, une colonne pour les écrans très petits */
-        .gallery {
-            grid-template-columns: repeat(1, 1fr);
-        }
-
-        /* Deux colonnes pour les petits écrans */
-        @media (min-width: 576px) {
-            .gallery {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-
-        /* Trois colonnes pour les écrans de taille moyenne */
-        @media (min-width: 768px) {
-            .gallery {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-
-        /* Quatre colonnes pour les grands écrans */
-        @media (min-width: 992px) {
-            .gallery {
-                grid-template-columns: repeat(4, 1fr);
-            }
-        }
-
-        /* Cinq colonnes pour les très grands écrans */
-        @media (min-width: 1200px) {
-            .gallery {
-                grid-template-columns: repeat(5, 1fr);
-            }
-        }
-    </style>
 </head>
 <body>
     <header>
-        <h1>Portfolio de Vincent Wei</h1>
-        <a href="https://www.instagram.com/vincent_frederic_wei/" target="_blank">
-            <img src="images/instagram_icon.png" alt="Suivez-moi sur Instagram" style="width:30px; height:30px;">
-        </a>
+        <h1>Photographies de mes voyages</h1>
+        <p>Auteur : Vincent Wei</p>
     </header>
 
     <main>
-        <section class="gallery">
-            <div class="gallery-item">
-                <a href="antalya.html">
-                    <img src="images/antalya.jpg" alt="Antalya">
-                    <h2>Antalya</h2>
-                </a>
+        <section id="france">
+            <h2>France</h2>
+            <div class="photos">
+                <img src="images/france1.jpg" alt="Photo 1">
+                <img src="images/france2.jpg" alt="Photo 2">
+                <img src="images/france3.jpg" alt="Photo 3">
+                <img src="images/france4.jpg" alt="Photo 4">
+                <img src="images/france5.jpg" alt="Photo 5">
+                <img src="images/france6.jpg" alt="Photo 6">
+                <img src="images/france7.jpg" alt="Photo 7">
+                <img src="images/france8.jpg" alt="Photo 8">
+                <img src="images/france9.jpg" alt="Photo 9">
+                <img src="images/france10.jpg" alt="Photo 10">
+                <img src="images/france11.jpg" alt="Photo 11">
+                <img src="images/france12.jpg" alt="Photo 12">
+                <img src="images/france13.jpg" alt="Photo 13">
+                <img src="images/france14.jpg" alt="Photo 14">
+                <img src="images/france15.jpg" alt="Photo 15">
+                <img src="images/france16.jpg" alt="Photo 16">
+                <img src="images/france17.jpg" alt="Photo 17">
+                <img src="images/france18.jpg" alt="Photo 18">
+                <img src="images/france19.jpg" alt="Photo 19">
+                <img src="images/france20.jpg" alt="Photo 20">
+                <img src="images/france21.jpg" alt="Photo 21">
+                <img src="images/france22.jpg" alt="Photo 22">
+                <img src="images/france23.jpg" alt="Photo 23">
+                <img src="images/france24.jpg" alt="Photo 24">
+                <img src="images/france25.jpg" alt="Photo 25">
+                <img src="images/france26.jpg" alt="Photo 26">
+                <img src="images/france27.jpg" alt="Photo 27">
+                <img src="images/france28.jpg" alt="Photo 28">
+                <img src="images/france29.jpg" alt="Photo 29">
+                <img src="images/france30.jpg" alt="Photo 30">
+                <img src="images/france31.jpg" alt="Photo 31">
+                <img src="images/france32.jpg" alt="Photo 32">
+                <img src="images/france33.jpg" alt="Photo 33">
+                <img src="images/france34.jpg" alt="Photo 34">
+                <img src="images/france35.jpg" alt="Photo 35">
+                <img src="images/france36.jpg" alt="Photo 36">
+                <img src="images/france37.jpg" alt="Photo 37">
             </div>
-            <div class="gallery-item">
-                <a href="barcelone.html">
-                    <img src="images/barcelone.jpg" alt="Barcelone">
-                    <h2>Barcelone</h2>
-                </a>
+        </section>
+
+        <section id="allemagne">
+            <h2>Allemagne</h2>
+            <div class="photos">
+                <img src="images/allemagne1.jpg" alt="Brandenbourg Gate">
+                <img src="images/allemagne2.jpg" alt="Neuschwanstein Castle">
+                <img src="images/allemagne3.jpg" alt="Berlin Skyline">
+                <img src="images/allemagne4.jpg" alt="Brandenbourg Gate">
+                <img src="images/allemagne5.jpg" alt="Neuschwanstein Castle">
+                <img src="images/allemagne6.jpg" alt="Berlin Skyline">
+                <img src="images/allemagne7.jpg" alt="Brandenbourg Gate">
+                <img src="images/allemagne8.jpg" alt="Neuschwanstein Castle">
+                <img src="images/allemagne9.jpg" alt="Berlin Skyline">
+                <img src="images/allemagne10.jpg" alt="Brandenbourg Gate">
+                <img src="images/allemagne11.jpg" alt="Neuschwanstein Castle">
+                <img src="images/allemagne12.jpg" alt="Berlin Skyline">
+                <img src="images/allemagne13.jpg" alt="Brandenbourg Gate">
+                <img src="images/allemagne14.jpg" alt="Neuschwanstein Castle">
+                <img src="images/allemagne15.jpg" alt="Berlin Skyline">
+            
             </div>
-            <div class="gallery-item">
-                <a href="batoumi.html">
-                    <img src="images/batoumi.jpg" alt="Batoumi">
-                    <h2>Batoumi</h2>
-                </a>
+        </section>
+
+        <section id="angleterre">
+            <h2>Angleterre</h2>
+            <div class="photos">
+                <img src="images/angleterre1.jpg" alt="Big Ben">
+                <img src="images/angleterre2.jpg" alt="Tower Bridge">
+                <img src="images/angleterre3.jpg" alt="Stonehenge">
+                <img src="images/angleterre4.jpg" alt="Tower Bridge">
+                <img src="images/angleterre5.jpg" alt="Stonehenge">
             </div>
-            <div class="gallery-item">
-                <a href="bruges.html">
-                    <img src="images/bruges.jpg" alt="Bruges">
-                    <h2>Bruges</h2>
-                </a>
+        </section>
+
+        <section id="autriche">
+            <h2>Autriche</h2>
+            <div class="photos">
+                <img src="images/autriche1.jpg" alt="Vienne">
+                <img src="images/autriche2.jpg" alt="Château de Schönbrunn">
+                <img src="images/autriche3.jpg" alt="Salzbourg">
+                <img src="images/autriche4.jpg" alt="Salzbourg">
             </div>
-            <div class="gallery-item">
-                <a href="budapest.html">
-                    <img src="images/budapest.jpg" alt="Budapest">
-                    <h2>Budapest</h2>
-                </a>
+        </section>
+
+        <section id="belgique">
+            <h2>Belgique</h2>
+            <div class="photos">
+                <img src="images/belgique1.jpg" alt="Grand-Place de Bruxelles">
+                <img src="images/belgique2.jpg" alt="Atomium">
+                <img src="images/belgique3.jpg" alt="Grote Markt à Bruges">
+                <img src="images/belgique4.jpg" alt="Grand-Place de Bruxelles">
+                <img src="images/belgique5.jpg" alt="Atomium">
+                <img src="images/belgique6.jpg" alt="Grote Markt à Bruges">
+                <img src="images/belgique7.jpg" alt="Grote Markt à Bruges">
             </div>
-            <div class="gallery-item">
-                <a href="cracovie.html">
-                    <img src="images/cracovie.jpg" alt="Cracovie">
-                    <h2>Cracovie</h2>
-                </a>
+        </section>
+
+        <section id="bosnie">
+            <h2>Bosnie</h2>
+            <div class="photos">
+                <img src="images/bosnie1.jpg" alt="Sarajevo">
+                <img src="images/bosnie2.jpg" alt="Mostar Bridge">
+                <img src="images/bosnie3.jpg" alt="Blagaj Tekija">
+                <img src="images/bosnie4.jpg" alt="Sarajevo">
+                <img src="images/bosnie5.jpg" alt="Mostar Bridge">
+                <img src="images/bosnie6.jpg" alt="Blagaj Tekija">
             </div>
-            <div class="gallery-item">
-                <a href="dubai.html">
-                    <img src="images/dubai.jpg" alt="Dubai">
-                    <h2>Dubai</h2>
-                </a>
+        </section>
+
+        <section id="croatie">
+            <h2>Croatie</h2>
+            <div class="photos">
+                <img src="images/croatie1.jpg" alt="Dubrovnik">
+                <img src="images/croatie2.jpg" alt="Plitvice Lakes">
+                <img src="images/croatie3.jpg" alt="Split">
+                <img src="images/croatie4.jpg" alt="Dubrovnik">
+                <img src="images/croatie5.jpg" alt="Plitvice Lakes">
+                <img src="images/croatie6.jpg" alt="Split">
+                <img src="images/croatie7.jpg" alt="Dubrovnik">
+                <img src="images/croatie8.jpg" alt="Plitvice Lakes">
+                <img src="images/croatie9.jpg" alt="Split">
+                <img src="images/croatie10.jpg" alt="Dubrovnik">
+                <img src="images/croatie11.jpg" alt="Plitvice Lakes">
+                <img src="images/croatie12.jpg" alt="Split">
             </div>
-            <div class="gallery-item">
-                <a href="dublin.html">
-                    <img src="images/dublin.jpg" alt="Dublin">
-                    <h2>Dublin</h2>
-                </a>
+        </section>
+
+        <section id="emirats">
+            <h2>Emirats Arabes Unis</h2>
+            <div class="photos">
+                <img src="images/emirats1.jpg" alt="Burj Khalifa">
+                <img src="images/emirats2.jpg" alt="Palm Jumeirah">
+                <img src="images/emirats3.jpg" alt="Grand Mosque of Abu Dhabi">
             </div>
-            <div class="gallery-item">
-                <a href="dubrovnik.html">
-                    <img src="images/dubrovnik.jpg" alt="Dubrovnik">
-                    <h2>Dubrovnik</h2>
-                </a>
+        </section>
+
+        <section id="ecosse">
+            <h2>Écosse</h2>
+            <div class="photos">
+                <img src="images/ecosse1.jpg" alt="Edimbourg">
+                <img src="images/ecosse2.jpg" alt="Loch Ness">
+                <img src="images/ecosse3.jpg" alt="Glasgow">
             </div>
-            <div class="gallery-item">
-                <a href="edimbourg.html">
-                    <img src="images/edimbourg.jpg" alt="Edimbourg">
-                    <h2>Edimbourg</h2>
-                </a>
+        </section>
+
+        <section id="espagne">
+            <h2>Espagne</h2>
+            <div class="photos">
+                <img src="images/espagne1.jpg" alt="Sagrada Familia">
+                <img src="images/espagne2.jpg" alt="Alhambra">
+                <img src="images/espagne3.jpg" alt="Park Güell">
+                <img src="images/espagne4.jpg" alt="Sagrada Familia">
+                <img src="images/espagne5.jpg" alt="Alhambra">
+                
             </div>
-            <div class="gallery-item">
-                <a href="florence.html">
-                    <img src="images/florence.jpg" alt="Florence">
-                    <h2>Florence</h2>
-                </a>
+        </section>
+
+        <section id="georgie">
+            <h2>Géorgie</h2>
+            <div class="photos">
+                <img src="images/georgie1.jpg" alt="Tbilissi">
+                <img src="images/georgie2.jpg" alt="Église de la Sainte-Croix">
+                <img src="images/georgie3.jpg" alt="Vardisubani Cave Monastery">
             </div>
-            <div class="gallery-item">
-                <a href="füssen.html">
-                    <img src="images/füssen.jpg" alt="Füssen">
-                    <h2>Füssen</h2>
-                </a>
+        </section>
+
+        <section id="hongrie">
+            <h2>Hongrie</h2>
+            <div class="photos">
+                <img src="images/hongrie1.jpg" alt="Budapest">
+                <img src="images/hongrie2.jpg" alt="Bains Széchenyi">
+                <img src="images/hongrie3.jpg" alt="Parlement Hongrois">
+                <img src="images/hongrie4.jpg" alt="Budapest">
+                <img src="images/hongrie5.jpg" alt="Bains Széchenyi">
+                <img src="images/hongrie6.jpg" alt="Parlement Hongrois">
+                <img src="images/hongrie7.jpg" alt="Budapest">
+                <img src="images/hongrie8.jpg" alt="Bains Széchenyi">
+                <img src="images/hongrie9.jpg" alt="Parlement Hongrois">
+                <img src="images/hongrie10.jpg" alt="Budapest">
+                <img src="images/hongrie11.jpg" alt="Bains Széchenyi">
+                <img src="images/hongrie12.jpg" alt="Parlement Hongrois">
+                <img src="images/hongrie13.jpg" alt="Budapest">
+                <img src="images/hongrie14.jpg" alt="Bains Széchenyi">
+                <img src="images/hongrie15.jpg" alt="Parlement Hongrois">
+                <img src="images/hongrie16.jpg" alt="Budapest">
+                <img src="images/hongrie17.jpg" alt="Bains Széchenyi">
+                <img src="images/hongrie18.jpg" alt="Parlement Hongrois">
+
             </div>
-            <div class="gallery-item">
-                <a href="gand.html">
-                    <img src="images/gand.jpg" alt="Gand">
-                    <h2>Gand</h2>
-                </a>
+        </section>
+
+        <section id="italie">
+            <h2>Italie</h2>
+            <div class="photos">
+                <img src="images/italie1.jpg" alt="Colisée">
+                <img src="images/italie2.jpg" alt="Venise">
+                <img src="images/italie3.jpg" alt="Tour de Pise">
+                <img src="images/italie4.jpg" alt="Colisée">
+                <img src="images/italie5.jpg" alt="Venise">
+                <img src="images/italie6.jpg" alt="Tour de Pise">
+                <img src="images/italie7.jpg" alt="Colisée">
+                <img src="images/italie8.jpg" alt="Venise">
+                <img src="images/italie9.jpg" alt="Tour de Pise">
+                <img src="images/italie10.jpg" alt="Colisée">
+                <img src="images/italie11.jpg" alt="Venise">
+                <img src="images/italie12.jpg" alt="Tour de Pise">
+                <img src="images/italie13.jpg" alt="Colisée">
+                <img src="images/italie14.jpg" alt="Venise">
+                <img src="images/italie15.jpg" alt="Tour de Pise">
+                <img src="images/italie16.jpg" alt="Colisée">
+                <img src="images/italie17.jpg" alt="Venise">
+                <img src="images/italie18.jpg" alt="Tour de Pise">
             </div>
-            <div class="gallery-item">
-                <a href="hallstatt.html">
-                    <img src="images/hallstatt.jpg" alt="Hallstatt">
-                    <h2>Hallstatt</h2>
-                </a>
+        </section>
+
+        <section id="irlande">
+            <h2>Irlande</h2>
+            <div class="photos">
+                <img src="images/irlande1.jpg" alt="Dublin">
+                <img src="images/irlande2.jpg" alt="Cliffs of Moher">
+                <img src="images/irlande3.jpg" alt="Galway">
             </div>
-            <div class="gallery-item">
-                <a href="hvar.html">
-                    <img src="images/hvar.jpg" alt="Hvar">
-                    <h2>Hvar</h2>
-                </a>
+        </section>
+
+        <section id="luxembourg">
+            <h2>Luxembourg</h2>
+            <div class="photos">
+                <img src="images/luxembourg1.jpg" alt="Luxembourg Ville">
+                <img src="images/luxembourg2.jpg" alt="Château de Vianden">
+                <img src="images/luxembourg3.jpg" alt="Pont Adolphe">
             </div>
-            <div class="gallery-item">
-                <a href="istanbul.html">
-                    <img src="images/istanbul.jpg" alt="Istanbul">
-                    <h2>Istanbul</h2>
-                </a>
+        </section>
+
+        <section id="montenegro">
+            <h2>Monténégro</h2>
+            <div class="photos">
+                <img src="images/montenegro1.jpg" alt="Kotor">
+                <img src="images/montenegro2.jpg" alt="Budva">
+                <img src="images/montenegro3.jpg" alt="Durmitor National Park">
+                <img src="images/montenegro4.jpg" alt="Kotor">
+                <img src="images/montenegro5.jpg" alt="Budva">
+                <img src="images/montenegro6.jpg" alt="Durmitor National Park">
             </div>
-            <div class="gallery-item">
-                <a href="lauterbrunnen.html">
-                    <img src="images/lauterbrunnen.jpg" alt="Lauterbrunnen">
-                    <h2>Lauterbrunnen</h2>
-                </a>
+        </section>
+
+        <section id="pologne">
+            <h2>Pologne</h2>
+            <div class="photos">
+                <img src="images/pologne1.jpg" alt="Varsovie">
+                <img src="images/pologne2.jpg" alt="Cracovie">
+                <img src="images/pologne3.jpg" alt="Gdansk">
+                <img src="images/pologne4.jpg" alt="Varsovie">
+                <img src="images/pologne5.jpg" alt="Cracovie">
+                <img src="images/pologne6.jpg" alt="Gdansk">
+                <img src="images/pologne7.jpg" alt="Varsovie">
+                <img src="images/pologne8.jpg" alt="Cracovie">
+                <img src="images/pologne9.jpg" alt="Gdansk">
             </div>
-            <div class="gallery-item">
-                <a href="londres.html">
-                    <img src="images/londres.jpg" alt="Londres">
-                    <h2>Londres</h2>
-                </a>
+        </section>
+
+        <section id="serbie">
+            <h2>Serbie</h2>
+            <div class="photos">
+                <img src="images/serbie1.jpg" alt="Belgrade">
+                <img src="images/serbie2.jpg" alt="Novi Sad">
+                <img src="images/serbie3.jpg" alt="Niš">
             </div>
-            <div class="gallery-item">
-                <a href="moscou.html">
-                    <img src="images/moscou.jpg" alt="Moscou">
-                    <h2>Moscou</h2>
-                </a>
+        </section>
+
+        <section id="slovaquie">
+            <h2>Slovaquie</h2>
+            <div class="photos">
+                <img src="images/slovaquie1.jpg" alt="Bratislava">
+                <img src="images/slovaquie2.jpg" alt="Tatras">
+                <img src="images/slovaquie3.jpg" alt="Oravský Hrad">
             </div>
-            <div class="gallery-item">
-                <a href="nice.html">
-                    <img src="images/nice.jpg" alt="Nice">
-                    <h2>Nice</h2>
-                </a>
+        </section>
+
+        <section id="slovenie">
+            <h2>Slovénie</h2>
+            <div class="photos">
+                <img src="images/slovenie1.jpg" alt="Ljubljana">
+                <img src="images/slovenie2.jpg" alt="Lac de Bled">
+                <img src="images/slovenie3.jpg" alt="Postojna Cave">
+                <img src="images/slovenie4.jpg" alt="Ljubljana">
+                <img src="images/slovenie5.jpg" alt="Lac de Bled">
+                <img src="images/slovenie6.jpg" alt="Postojna Cave">
             </div>
-            <div class="gallery-item">
-                <a href="paris.html">
-                    <img src="images/paris.jpg" alt="Paris">
-                    <h2>Paris</h2>
-                </a>
+        </section>
+
+        <section id="suisse">
+            <h2>Suisse</h2>
+            <div class="photos">
+                <img src="images/suisse1.jpg" alt="Montreux">
+                <img src="images/suisse2.jpg" alt="Zermatt">
+                <img src="images/suisse3.jpg" alt="Lac Léman">
+                <img src="images/suisse4.jpg" alt="Montreux">
+                <img src="images/suisse5.jpg" alt="Zermatt">
+                <img src="images/suisse6.jpg" alt="Lac Léman">
+                <img src="images/suisse7.jpg" alt="Montreux">
+                <img src="images/suisse8.jpg" alt="Zermatt">
+                <img src="images/suisse9.jpg" alt="Lac Léman">
+                <img src="images/suisse10.jpg" alt="Montreux">
+                <img src="images/suisse11.jpg" alt="Zermatt">
+                <img src="images/suisse12.jpg" alt="Lac Léman">
+                <img src="images/suisse13.jpg" alt="Montreux">
+                <img src="images/suisse14.jpg" alt="Zermatt">
+                <img src="images/suisse15.jpg" alt="Lac Léman">
+                <img src="images/suisse16.jpg" alt="Montreux">
+                <img src="images/suisse17.jpg" alt="Zermatt">
+                <img src="images/suisse18.jpg" alt="Lac Léman">
             </div>
-            <div class="gallery-item">
-                <a href="prague.html">
-                    <img src="images/prague.jpg" alt="Prague">
-                    <h2>Prague</h2>
-                </a>
+        </section>
+
+        <section id="turquie">
+            <h2>Turquie</h2>
+            <div class="photos">
+                <img src="images/turquie1.jpg" alt="Istanbul">
+                <img src="images/turquie2.jpg" alt="Cappadoce">
+                <img src="images/turquie3.jpg" alt="Pamukkale">
+                <img src="images/turquie4.jpg" alt="Istanbul">
+                <img src="images/turquie5.jpg" alt="Cappadoce">
+                <img src="images/turquie6.jpg" alt="Pamukkale">
+                <img src="images/turquie7.jpg" alt="Istanbul">
+                <img src="images/turquie8.jpg" alt="Cappadoce">
+                <img src="images/turquie9.jpg" alt="Pamukkale">
+                <img src="images/turquie10.jpg" alt="Istanbul">
+                <img src="images/turquie11.jpg" alt="Cappadoce">
+                <img src="images/turquie12.jpg" alt="Pamukkale">
             </div>
-            <div class="gallery-item">
-                <a href="reims.html">
-                    <img src="images/reims.jpg" alt="Reims">
-                    <h2>Reims</h2>
-                </a>
+        </section>
+
+        <section id="republique-tcheque">
+            <h2>République Tchèque</h2>
+            <div class="photos">
+                <img src="images/republique-tcheque1.jpg" alt="Prague">
+                <img src="images/republique-tcheque2.jpg" alt="Château de Český Krumlov">
+                <img src="images/republique-tcheque3.jpg" alt="Karlovy Vary">
+                <img src="images/republique-tcheque4.jpg" alt="Prague">
+                <img src="images/republique-tcheque5.jpg" alt="Château de Český Krumlov">
+                <img src="images/republique-tcheque6.jpg" alt="Karlovy Vary">
+                <img src="images/republique-tcheque7.jpg" alt="Prague">
+                <img src="images/republique-tcheque8.jpg" alt="Château de Český Krumlov">
+                <img src="images/republique-tcheque9.jpg" alt="Karlovy Vary">
+                <img src="images/republique-tcheque10.jpg" alt="Prague">
+                <img src="images/republique-tcheque11.jpg" alt="Château de Český Krumlov">
+                <img src="images/republique-tcheque12.jpg" alt="Karlovy Vary">
             </div>
-            <div class="gallery-item">
-                <a href="rome.html">
-                    <img src="images/rome.jpg" alt="Rome">
-                    <h2>Rome</h2>
-                </a>
+        </section>
+
+        <section id="roumanie">
+            <h2>Roumanie</h2>
+            <div class="photos">
+                <img src="images/roumanie1.jpg" alt="Bucarest">
+                <img src="images/roumanie2.jpg" alt="Château de Dracula">
+                <img src="images/roumanie3.jpg" alt="Transylvanie">
             </div>
-            <div class="gallery-item">
-                <a href="rovinj.html">
-                    <img src="images/rovinj.jpg" alt="Rovinj">
-                    <h2>Rovinj</h2>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <a href="saint-petersbourg.html">
-                    <img src="images/saint-petersbourg.jpg" alt="Saint-Pétersbourg">
-                    <h2>Saint-Pétersbourg</h2>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <a href="split.html">
-                    <img src="images/split.jpg" alt="Split">
-                    <h2>Split</h2>
-                </a>
-            </div>
-            <div class="gallery-item">
-                <a href="venise.html">
-                    <img src="images/venise.jpg" alt="Venise">
-                    <h2>Venise</h2>
-                </a>
+        </section>
+
+        <section id="russie">
+            <h2>Russie</h2>
+            <div class="photos">
+                <img src="images/russie1.jpg" alt="Moscou">
+                <img src="images/russie2.jpg" alt="Saint-Pétersbourg">
+                <img src="images/russie3.jpg" alt="Vladivostok">
+                <img src="images/russie4.jpg" alt="Moscou">
+                <img src="images/russie5.jpg" alt="Saint-Pétersbourg">
+                <img src="images/russie6.jpg" alt="Vladivostok">
+                <img src="images/russie7.jpg" alt="Moscou">
+                <img src="images/russie8.jpg" alt="Saint-Pétersbourg">
+                <img src="images/russie9.jpg" alt="Vladivostok">
+                <img src="images/russie10.jpg" alt="Moscou">
+                <img src="images/russie11.jpg" alt="Saint-Pétersbourg">
+                <img src="images/russie12.jpg" alt="Vladivostok">
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Vincent Frédéric WEI. Tous droits réservés.</p>
+        <p>&copy; 2024 Vincent Wei. Tous droits réservés.</p>
     </footer>
 </body>
 </html>
